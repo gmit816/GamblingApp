@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <nav style="margin-bottom: 20px;;">
+            <div class="grey darken-4" style="padding-bottom: 27px">
+                <div class="navbar-wrapper container" style="text-align: center;">
+                   <h3><lable>Gambling Site</lable></h3>
+                </div>
+            </div>
+        </nav>
+        <div class="ui-login center-align container" style="margin-top: 20px;">
+            <div class="ui-login-left" style="margin-top: 20px;">
+                <h3>Log In</h3>
+                <p>Please Fill-Up Your Basic Information:</p>
+                <form action="/login" method="post">
+                    <input type="text" name="id" placeholder="Username" required="required">
+                    <input type="password" name="password" placeholder="Password" required="required" autocomplete="off">
+            </div>
+            <div class="ui-login-right">
+                <input type="submit" value="Login" name="submit">
+            </div>
+                </form>
+            <div class="clearfix"></div>
+        </div>
+        <script type="text/javascript" src="materialize.min.js"></script>
+    </body>
+</html>
